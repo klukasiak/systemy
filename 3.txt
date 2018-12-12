@@ -1,0 +1,10 @@
+#!/bin/bash
+
+a=$(find $1 -type f | wc -l)
+b=$(find $2 -type f | wc -l)
+
+if [ $a = $b ]; then
+echo "TYLE SAMO"
+else
+echo "NIE TYLE SAMO"
+fi

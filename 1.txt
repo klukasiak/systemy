@@ -1,0 +1,11 @@
+mkdir Jawne
+mkdir Tajne
+cp *.sec Tajne
+cp *.pub Jawne
+chmod 555 Jawne
+cd Jawne
+chmod 744 *
+cd ..
+chmod 510 Tajne
+cd Tajne
+chmod 440 * 

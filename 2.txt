@@ -1,0 +1,1 @@
+cat Poezja Proza | sort | head -n54 | tail -n19 > Przyklady

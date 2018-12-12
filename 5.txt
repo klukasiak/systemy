@@ -1,0 +1,7 @@
+#!/bin/bash
+let czas=$1*60
+while true
+do
+	ps -aux | wc -l
+	sleep "$czas"
+done

@@ -1,0 +1,8 @@
+#!/bin/bash
+numer=0
+wynik=0
+tablica=("$@")
+for arg; do
+	let wynik=$wynik+$arg
+done
+echo "$wynik"
